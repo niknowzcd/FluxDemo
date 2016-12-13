@@ -1,0 +1,26 @@
+ext {
+
+    //Android
+    androidBuildToolsVersion = "23.0.2"
+    androidMinSdkVersion = 19
+    androidTargetSdkVersion = 23
+    androidCompileSdkVersion = 23
+    androidVersionCode = 1;
+    androidVersionName = "1.0"
+
+
+    recyclerViewVersion = '23.2.1'
+    cardViewVersion = '23.2.1'
+    appcompatVersion = '23.2.1'
+    designVersion = '23.2.1'
+    butterKnifeVersion = '7.0.1'
+
+
+    dependencies = [
+            recyclerView: "com.android.support:recyclerview-v7:${recyclerViewVersion}",
+            cardView    : "com.android.support:cardview-v7:${cardViewVersion}",
+            appcompat   : "com.android.support:appcompat-v7:${appcompatVersion}",
+            design      : "com.android.support:design:${designVersion}",
+            butterKnife : "com.jakewharton:butterknife:${butterKnifeVersion}",
+    ]
+}
